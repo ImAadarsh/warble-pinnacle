@@ -15,5 +15,4 @@ echo json_encode($data_array,true);
         window.location.href='../pincodes.php';
         </script>";
     }  
-
 ?>

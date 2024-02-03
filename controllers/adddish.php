@@ -28,7 +28,7 @@ $data_array =  array(
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-      CURLOPT_URL => 'https://api.holatiffin.com/dishes',
+      CURLOPT_URL => 'http://127.0.0.1:5001/dishes',
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => '',
       CURLOPT_MAXREDIRS => 10,
